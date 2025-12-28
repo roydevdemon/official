@@ -296,8 +296,9 @@ body.mouse-active::before {
 .content-right {
     margin-left: var(--sidebar-width);
     width: var(--content-width);
-    padding: 60px 0 60px 60px;
+    padding: 60px 60px 60px 60px;
     min-height: 100vh;
+    max-width: calc(1500px * 0.7);
 }
 
 /* Content Sections */
